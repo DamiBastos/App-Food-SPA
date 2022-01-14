@@ -34,8 +34,8 @@ const { Recipe, Diet } = sequelize.models;
 
 // Aca vendrian las relaciones
 // Product.hasMany(Reviews);
-Diet.belongsToMany(Recipe, {through : "recipes_diet"});
 Recipe.belongsToMany(Diet, {through : "recipes_diet"});
+Diet.belongsToMany(Recipe, {through : "recipes_diet"});
 
 
 module.exports = {

@@ -1,0 +1,108 @@
+.create{
+    background-color: rgb(218, 240, 96);
+}
+  
+  .create button {
+    position:absolute;
+    left:1px;
+    border-color: rgb(223, 124, 174);
+    border: solid 2px;
+    border-width: 0.5px;
+    border-radius: 100px;
+    background-color: rgb(88, 45, 74);
+    transition: background-color 0.25s, color 0.25s;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+  }
+  .create button:hover {
+    background-color: rgb(126, 123, 126);
+    color: white;
+    border: 2px outset rgba(119, 98, 28, 0.8);
+  }
+  .buttonToHome {
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 80%;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+  
+  .create h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 40px;
+    text-shadow: rgb(19, 19, 18) -3px 1px;
+    color:lightcoral
+  }
+  
+  .create form {
+    margin-left: 32%;
+    margin-top: 20px;
+    font-family: "Mulish", sans-serif;
+    color:rgb(168, 88, 88);
+    font-size: 15px;
+  }
+  
+  .create label {
+    display: flex;
+    margin-right: 10px;
+  }
+  
+  .inputCreate {
+      position: absolute;
+    font-size: 15px;
+    height: 13px;
+    width: 400px;
+  }
+  ::placeholder {
+    color: rgb(131, 131, 124);
+  }
+  
+  .form div {
+    margin-bottom: 20px;
+  }
+  
+  .form p {
+    font-size: 19px;
+    width: 300px;
+    color: rgb(248, 26, 26);
+  }
+  
+  .instruction {
+    width: 400px;
+  }
+  .labelInstr {
+    display: flex;
+  }
+  
+  .create span {
+    margin-right: 6px;
+  }
+  
+  .dietsCreate ul {
+    margin-top: 15px;
+  }
+  
+  .dietsCreate button {
+    background-color: rgb(156, 54, 28);
+    border-color: rgb(189, 202, 117);
+    border-radius: 9999px;
+    font-size: 10px;
+    padding: 2px;
+    margin-top: 0;
+    margin-left: 5px;
+    width: 18px;
+  }
+  
+  .dietsCreate button:hover {
+    background-color: rgb(126, 123, 126);
+    color: white;
+    border: 2px outset rgba(119, 98, 28, 0.8);
+    width: 20px;
+  }
+  
+  .btnCreate {
+    margin-left: 43%;
+  }

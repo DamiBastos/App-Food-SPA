@@ -1,0 +1,52 @@
+.cardComp {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 390px;
+
+}
+ .cardComp h3 {
+        display: flex;
+        text-align: center;
+        margin-top: 7px;
+        color:lightcoral;
+
+        margin: 2%;
+      }
+      
+.cardComp h3:hover {
+        text-decoration: underline darkslategrey;
+        color: rgb(69, 70, 63);
+        text-shadow: rgb(223, 208, 124) -0.5px 0.5px;
+      }
+  .cardComp img {
+        display: flex;
+        margin-left: 25%;
+      }
+      
+      .cardComp img:hover {
+        border: 2px outset rgba(119, 98, 28, 0.8);
+      }
+      
+      .typeOfD {
+        color: rgb(0, 0, 0);
+        text-decoration: underline;
+        margin-bottom: 2px;
+        margin-top: 10px;
+        margin-left: 10px;
+        line-height: 13px;
+      }
+      
+      .diets {
+        color: rgb(0, 0, 0);
+        margin-top: 0;
+        margin-left: 30%;
+        margin-bottom: 0;
+        line-height: 3px;
+      }
+      
+      .score {
+        color: rgb(0, 0, 0);
+        float: right;
+      }

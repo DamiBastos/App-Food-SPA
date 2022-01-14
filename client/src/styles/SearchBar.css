@@ -1,0 +1,29 @@
+.searchBar{
+    position: absolute;
+    top:15px;
+    left:82%;
+}
+
+.input {
+    width: 90px;
+    height: 26px;
+    border: 2px solid #a2a2a2;
+    border-radius: 5px 0 0 5px;
+    border-right: none; 
+    font-size: 20px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.btn {
+    align-items: center;
+    height: 32px;
+
+        cursor: pointer;
+    border: 2px solid #a2a2a2;
+    font-size: 20px;
+
+    
+}

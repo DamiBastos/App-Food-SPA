@@ -1,0 +1,56 @@
+.landing {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-image: url("../assets/bkgLanding.jpg");
+  background-position:inherit;
+  background-repeat: no-repeat;
+}
+
+.landing h1 {
+  position:absolute;
+  top: 100px;
+  left: 34%;
+  color: rgb(211, 194, 102);
+  text-shadow: rgb(19, 19, 18) -3px 1px;
+  font-size: 80px;
+  
+}
+
+.landing h4 {
+  position:absolute;
+  top:220px;
+  left: 38%;
+
+  font-size: 20px;
+  
+}
+
+
+
+.landing button {
+  border: solid 2px transparent;
+  border-radius: 100px;
+  position: relative;
+  top: 300px;
+  left: 42%;
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  transition: background-color 0.25s, color 0.25s;
+  cursor: pointer;
+  font-size: 30px;
+}
+.landing button:hover {
+  background-color: #572c03ab;
+  color: rgb(211, 194, 102);
+}
+
+
+
+.btnLan {
+  text-decoration: none;
+}
