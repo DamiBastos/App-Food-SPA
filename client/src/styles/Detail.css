@@ -72,3 +72,11 @@
     background-color: rgba(51, 45, 9, 0.8);
     padding: 2%;
   }
+
+  .loading {
+    position: absolute;
+    color: blue;
+    top:45%;
+    left:45%;
+    font-size: 30px;
+  }

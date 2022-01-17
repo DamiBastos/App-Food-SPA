@@ -4,6 +4,7 @@
 }
 
 .tittle{
+  font-family: Critter, Cottonwood, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
     font-size:35px;
     color:lightcoral;
@@ -24,7 +25,7 @@
 .linkCreate{
   position:absolute;
   top:80px;
-  left: 40%;
+  left: 33%;
   margin: 2px;
   
 }

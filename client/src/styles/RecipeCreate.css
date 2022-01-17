@@ -82,10 +82,15 @@
   }
   
   .dietsCreate ul {
-    margin-top: 15px;
+    position: relative;
+    margin-top: 5px;
+    left: 60px;;
   }
   
   .dietsCreate button {
+    position: absolute;
+    top: 0px;
+    left: 175px;
     background-color: rgb(156, 54, 28);
     border-color: rgb(189, 202, 117);
     border-radius: 9999px;
@@ -104,5 +109,13 @@
   }
   
   .btnCreate {
-    margin-left: 43%;
+    position: relative;
+    margin-left: 40%;
   }
+
+  .delete{
+    position: relative;
+    left:40%;
+  }
+
+ 
